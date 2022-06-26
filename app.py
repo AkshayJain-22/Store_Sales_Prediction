@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/",methods=['GET','POST'])
 def index():
-    return("Starting the project again")
+    return("Confirming for the last time")
 
 if __name__=="main":
     app.run(debug=True)
